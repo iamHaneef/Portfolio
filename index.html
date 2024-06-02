@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/me2.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" >Muhamad Haneef</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Overview</a></li>
+          <li><a href="#experience">Proficiencies</a></li>
+          <li><a href="#projects">Deployment</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Muhamad Haneef</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Overview</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Proficiencies</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Deployment</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/mine1.jpeg" style="border-radius: 50%" alt="mine2 profile picture" class="mine"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello Everyone I'm</p>
+        <h1 class="title">Muhamad Haneef</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/haneef__resume_.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Reach-Out Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img style="border-radius:20px"
+            src="./assets/insta2.jpeg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/iamHaneef'"
+          />
+          <img
+            src="./assets/email2.jpeg " style="border-radius: 20px; "
+            alt="My Gmail profile"
+            class="icon"
+            onclick="location.href='mailto:haneef.infosystech@gmail.com'"
+          />
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Scroll To Get More Info</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container1">
+                <img
+                  src="https://clipart-library.com/img1/1053315.png"
+                  alt="Experience icon"
+                  class="icon" 
+                />
+                <h3>Internship</h3>
+              <p>Training in Web Development<br /><b>Emglitz Technologies</p>
+            </div>
+            <div class="details-container1">
+              <img
+                src="https://www.freeiconspng.com/uploads/education-png-6.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E Computer Science Engineering<br />2021 - 2025</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I excel in creating dynamic and responsive web applications, with significant experience in handling API integration and data manipulation. My problem-solving abilities were recognized when <b>I secured 2nd place in the OSPF event at Reach 24'</b> hosted by Anna University .<br>I cleared the <b>Internal Hackathon for SIH 2023</b>.
+              I possess excellent skills in team collaboration, group discussion, and decision-making, which I utilize to contribute effectively in team projects. 
+               I am passionate about continuous learning and applying my knowledge to solve complex problems efficiently.
+              
+            </p>
+            </div>
+          </div>
+          <div class="section__pic-container">
+            <img
+              src="./assets/mine8.jpeg"
+              alt="Profile picture"
+              class="about-pic" id="mine8"
+            />
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+    <section id="experience">
+      <p class="section__text__p1" class="one">Probe My</p>
+      <h1 class="title" >Skills Level  </h1>
+      <div class="experience-details-container" style="margin-top: 70px;">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title" style="color:black"><u >Frontend Development</u></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>REACT</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title" style="color:black";><u>Backend Development</u></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FIREBASE</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article class="lone">
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="padding-right: 65px;">Java </h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Explore My Recent</p>
+      <h1 class="title">Archives</h1>
+      <div class="experience-details-container">
+        <div class="about-containers2" >
+          <div class="details-container color-container" id="one">
+            <div class="article-container" >
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Chat Cafe</h2>
+            <div class="btn-container">
+              <button style="border: 1px gray solid;"
+                class="btn btn-color-2 project-btn2"
+                onclick="location.href='https://github.com/iamHaneef/Chat_Cafe'"
+              >
+                Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn1"
+                onclick="location.href='https://chat-cafe.netlify.app'"
+              >
+                Demonstrate
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container" id="two">
+            <div class="article-container">
+              <img
+                src="./assets/resume3.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">RESUME BUILDER</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn2"
+                onclick="location.href='https://github.com/iamHaneef/Career-Catalyst-Tool'"
+              >
+              Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn1"
+                onclick="location.href=' https://carriercatalysttool.netlify.app'"
+              >
+              Demonstrate  
+                        </button>
+            </div>
+          </div>
+          <div class="details-container color-container" id="three">
+            <div class="article-container">
+              <img
+                src="./assets/meme.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MEMOGRAM</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn2"
+                onclick="location.href='https://github.com/iamHaneef/memogram'"
+              >
+              Source Code
+              </button>
+              <button
+                class="btn btn-color-1 project-btn1"
+                onclick="location.href='https://memogram-mine.netlify.app'"
+              >
+              Demonstrate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1"  style="color: white; margin-bottom: 0px; margin-top: 11px; padding-bottom: 10px; " >Get in contact</p >
+      <h1 class="title" style="color: rgb(63, 63, 63); margin-bottom: 50px;">Reach Out to Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p ><a href="mailto:muhamadhaneef.official@gmail.com" >AccountName@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/haneef-j">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Overview</a></li>
+            <li><a href="#experience">Proficiencies</a></li>
+            <li><a href="#projects">Deployment</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p style="color: rgb(63, 63, 63)">Copyright &#169; 2022 Muhamad Haneef. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
