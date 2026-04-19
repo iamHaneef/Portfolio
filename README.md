@@ -1,6 +1,4 @@
 # Portfolio
-Engineered my personal portfolio with a responsive design meticulously crafted for effortless viewing on diverse devices.
-# Portfolio
 
 A personal portfolio website showcasing projects, skills, and basic web development work.
 
