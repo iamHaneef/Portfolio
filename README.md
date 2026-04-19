@@ -1,10 +1,10 @@
-# Portfolio
+# 🌐 Portfolio
 
 A personal portfolio website showcasing projects, skills, and basic web development work.
 
 ---
 
-## Features
+## 🚀 Features
 
 - Responsive layout  
 - Project showcase  
@@ -13,7 +13,7 @@ A personal portfolio website showcasing projects, skills, and basic web developm
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```bash
 portfolio/
