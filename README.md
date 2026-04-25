@@ -1,22 +1,39 @@
-# 🌐 Portfolio
+# Personal Portfolio Website
 
-A personal portfolio website showcasing projects, skills, and basic web development work.
+## 📌 Overview
+
+A responsive personal portfolio website showcasing my projects, skills, and development work.  
+This project serves as a central hub to present my work and provide easy access to live demos and repositories.
 
 ---
 
-## 🚀 Features
+## ⚡ Features
 
-- Responsive layout  
-- Project showcase  
+- Responsive design for multiple devices  
+- Project showcase with links  
+- Clean and structured UI  
 - Simple navigation  
-- Clean UI design  
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML  
+- CSS / SCSS  
+- JavaScript  
+
+---
+
+## 🌐 Live Demo
+
+https://haneefweb.netlify.app/
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-portfolio/
+personal-portfolio-website/
 │
 ├── index.html
 ├── script.js
@@ -24,7 +41,14 @@ portfolio/
 ├── assets/
 │   └── (images)
 │
-├── styles scss/
+├── styles/
 │   └── (scss files)
 │
 └── README.md
+```
+
+---
+
+## 🚀 How to Run
+
+> Open `index.html` in any modern web browser.
